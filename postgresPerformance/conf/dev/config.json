@@ -1,0 +1,14 @@
+
+{
+
+	"http.port":8999,    
+    "routes":[
+    {  	"httpMethod": "GET", "type":"normal","url" : "/order/:id", "handler" : "arya.postgresPerformance.routes.handlers.OrderByIdHandler"
+    }],
+
+    "db.host":"localhost",
+    "db.maxPoolSize":10,
+    "db.username":"sarya",
+    "db.password":"1234",
+    "db.dbName":"starfleet"
+}

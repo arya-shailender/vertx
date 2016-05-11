@@ -1,0 +1,1 @@
+java -Xmx512M -Xms512M -jar target/postgresPerformance-0.0.1-SNAPSHOT-fat.jar -Dorg.vertx.logger-delegate-factory-class-name=org.vertx.java.core.logging.impl.SLF4JLogDelegateFactory -conf conf/dev/config.json
